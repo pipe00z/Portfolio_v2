@@ -370,4 +370,11 @@ main .icon-arow i {
   .boxes div {
     font-size: 1.5em;
   }
+  .btn,
+  .btn-dark,
+  .btn-light {
+    font-size: 10px;
+    border: 0;
+    margin-right: 5px;
+  }
 }
