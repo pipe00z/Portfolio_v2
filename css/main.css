@@ -155,7 +155,7 @@ main .icon-arow i {
   color: #616161;
   grid-template-areas: "bioimage bioimage bio bio" "job1 job2 job2 job3";
   grid-template-columns: repeat(4, 1fr);
-  padding: 2rem 2rem 0 2rem;
+  padding: 2rem 5rem 0 5rem;
 }
 .about-info h3 {
   color: #45474a;
@@ -190,6 +190,7 @@ main .icon-arow i {
   max-width: 1100px;
   margin: 0 auto;
   position: relative;
+  display: grid;
 }
 .header-gallery {
   width: 100%;
@@ -199,6 +200,7 @@ main .icon-arow i {
 }
 .header-gallery ul {
   padding-left: 0px !important;
+  margin: auto;
 }
 
 .menu-gallery ul li {
@@ -309,11 +311,11 @@ main .icon-arow i {
   color: #fff;
 }
 
-*/ #main-footer {
+#main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
-  color: #fff;
+  background: #fff;
+  color: #45474a;
   height: 60px;
 }
 
@@ -365,6 +367,7 @@ main .icon-arow i {
   .about-info {
     grid-template-areas: "bioimage" "bio" "job1" "job2" "job3" "job4";
     grid-template-columns: 1fr;
+    padding: 2rem 2rem 0 2rem;
   }
   .projects {
     grid-template-columns: repeat(2, 1fr);
