@@ -364,4 +364,10 @@ main .icon-arow i {
   .menu-gallery ul {
     padding-left: 0;
   }
+  .menu-gallery ul li {
+    margin: 3px;
+  }
+  .boxes div {
+    font-size: 1.5em;
+  }
 }
