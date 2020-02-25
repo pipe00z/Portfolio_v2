@@ -353,14 +353,18 @@ main .icon-arow i {
   }
   main .lg-heading {
     margin-top: 1rem;
-    font-size: 5rem;
+    font-size: 4rem;
+  }
+  h2.sm-heading {
+    font-size: 1.2rem;
+  }
+  main .icons {
+    font-size: 0.7 rem;
   }
   .projects {
     grid-template-columns: 1fr;
   }
-  .arrow {
-    margin-top: 3rem;
-  }
+
   .menu-gallery ul {
     padding-left: 0;
   }
